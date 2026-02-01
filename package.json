@@ -1,0 +1,21 @@
+{
+  "name": "image-website",
+  "version": "1.0.0",
+  "description": "Website to upload images",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Devraj Roy",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.30.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "hbs": "^4.2.0",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
